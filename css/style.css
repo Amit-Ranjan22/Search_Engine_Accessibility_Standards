@@ -73,7 +73,7 @@ p {
 }
 
 aside {
-    margin-right: 20px;
+  margin-right: 20px;
   padding: 20px;
   clear: both;
   float: right;
@@ -83,17 +83,7 @@ aside {
   background-color: #2589bd;
 }
 
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
+.benefits div {
   margin-bottom: 32px;
   color: #ffffff;
 }
