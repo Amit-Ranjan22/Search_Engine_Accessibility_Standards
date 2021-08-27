@@ -1,13 +1,18 @@
+/* Using universal selector to give padding,margin & box-sizing
+   to every element of the html page */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Giving background color to the whole body of html page */
 body {
   background-color: #d9dcd6;
 }
 
+/* Giving the header a 'text color','background color', 
+   'font style' and 'padding'. */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +21,20 @@ header {
   color: #ffffff;
 }
 
+/* Giving <h1> tag under class 'header' a display property of 
+   'inline-block' and 'font-size' of 48px. */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* Giving the letters 'seo' under class 'seo' a text color */
 .seo {
   color: #d9dcd6;
 }
 
+/* Giving the following properties to the '<div> element 
+   under the class named 'header' */
 .header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,20 +43,27 @@ header {
   font-size: 20px;
 }
 
-.header div ul li {
+/* Giving the 3 <li> tags display of 'inline-block' and 
+   'margin-left' of 25px. */
+li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* Giving all the anchor tags <a> a text color and deoration-type 
+   'none'. */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Giving all the paragraph under <p> tags a font size of 16px. */
 p {
   font-size: 16px;
 }
 
+/* Assigning a background image and some other properties to the 
+   <div> having class 'hero'. */
 .hero {
   height: 800px;
   width: 100%;
@@ -56,22 +73,54 @@ p {
   background-position: center;
 }
 
+/* Assigning a position of 'left' and right margin of 25px to 
+   the image having class 'float-left'. */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* Assigning a position of 'right' and left margin of 25px to 
+   the image having class 'float-right'. */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* Giving values to the width, display, and left margin to the 
+   div container having class named 'content'. */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Giving all the 3 divs which are under parent div having class 
+   name 'content' some properties like height,padding,color etc.*/
+.content div {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Giving all the 3 images under class named 'content' a 
+   maximum height of 200px. */
+.content img {
+  max-height: 200px;
+}
+
+/* Giving all the 3 <h2> under class named 'content' a 
+    font-size of 36px & margin-bottom of 20px. */
+.content h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Giving width,height,padding,font-family,background-color etc to 
+   <aside> element. */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -83,40 +132,30 @@ aside {
   background-color: #2589bd;
 }
 
+/* Giving the parent <div> of class named 'benefits' a text color
+   and margin-bottom of 32px. */
 .benefits div {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* Giving all the 3 <h3> tags under class 'benefits' a 
+   margin-bottom of 10px & text-align value 'center'. */
 .benefits h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Giving all the 3 images under class named 'benefits' a 
+   display of 'block', margin of '10px auto' & max-width of 150px */
 .benefits img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.content div {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.content img {
-  max-height: 200px;
-}
-
-.content h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+/* Giving the <footer> element a values for text-align, 
+   font-family,padding & clear.*/
 footer {
   padding: 30px;
   clear: both;
@@ -125,6 +164,8 @@ footer {
   text-align: center;
 }
 
+/* Giving font size of 20px to the <h2> tag inside <footer> 
+   element. */
 footer h2 {
   font-size: 20px;
 }
