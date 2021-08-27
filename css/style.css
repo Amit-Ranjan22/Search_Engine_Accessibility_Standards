@@ -21,9 +21,9 @@ header {
   color: #ffffff;
 }
 
-/* Giving <h1> tag under class 'header' a display property of 
+/* Giving <h1> tag under <nav> bar a display property of
    'inline-block' and 'font-size' of 48px. */
-.header h1 {
+nav h1 {
   display: inline-block;
   font-size: 48px;
 }
@@ -34,8 +34,8 @@ header {
 }
 
 /* Giving the following properties to the '<div> element 
-   under the class named 'header' */
-.header div {
+   under <nav> bar. */
+nav div {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
