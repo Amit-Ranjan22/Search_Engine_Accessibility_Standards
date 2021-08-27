@@ -28,8 +28,8 @@ nav h1 {
   font-size: 48px;
 }
 
-/* Giving the letters 'seo' under class 'seo' a text color */
-.seo {
+/* Giving the letters 'seo' under <span> tag a text color */
+span {
   color: #d9dcd6;
 }
 
