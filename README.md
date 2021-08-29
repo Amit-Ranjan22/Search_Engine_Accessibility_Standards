@@ -103,3 +103,6 @@ WHEN : there is a short descriptive comment in style.css for
 2. ./Application-Screenshots/Screenshot-2.png
 3. ./Application-Screenshots/Screenshot-3.png
 4. ./Application-Screenshots/Screenshot-4.png
+
+**Link to the deployed application**
+https://amit-ranjan22.github.io/Search_Engine_Accessibility_Standards/
